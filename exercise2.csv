@@ -1,0 +1,4 @@
+,model,Test score (Accuracy),Train score (Accuracy),Number of trainable parameters,Number of layers,Regularization methods,Number of epochs,Loss function,Optimizer
+0,Basic CNN,0.76,0.62,5697602,6,Dropout,32,sparse_categorical_crossentropy,rmsprop
+1,My Model,0.7825,0.62,2790114,7,Dropout,32,sparse_categorical_crossentropy,rmsprop
+2,InceptionV3,0.975,0.53975,55360290,pre trained model + 1 fully connected + output,"Dropout, Batch normalization",32,sparse_categorical_crossentropy,rmsprop
